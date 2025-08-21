@@ -1,14 +1,14 @@
 Multilingual Sentiment Analysis with Hugging Face and Streamlit
 This repository contains a machine learning project for multilingual sentiment analysis. The project fine-tunes a pre-trained language model from Hugging Face on a multilingual dataset and deploys it as a user-friendly web application using Streamlit.
 
-🚀 Key Features
+Key Features
 Multilingual Support: The model is fine-tuned to understand sentiment in multiple languages, including English, Spanish, and French.
 
 Custom Fine-Tuning: The project demonstrates how to fine-tune a powerful distilbert-base-multilingual-cased model for a specific task.
 
 Interactive Web App: A Streamlit application is provided to allow users to interact with the model by entering text and getting real-time sentiment predictions.
 
-⚙️ Project Structure
+Project Structure
 The project is structured into a series of steps that can be run sequentially in a Jupyter Notebook or Google Colab environment.
 
 Step 1: Install Necessary Libraries
@@ -35,7 +35,7 @@ After training, it is crucial to test the model's performance. The trainer.evalu
 Step 8: Deploy the Streamlit App
 Finally, the fine-tuned model is loaded into a Streamlit application. The app provides a simple user interface where users can input text and receive a sentiment prediction. The application uses ngrok to create a public URL, making it accessible from anywhere.
 
-💾 How to Run the Project
+How to Run the Project
 Clone the Repository:
 
 git clone https://github.com/your-username/your-repo-name.git
